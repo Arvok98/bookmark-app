@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Arvok98/bookmark-app/issues"
   },
-  "homepage": "https://github.com/Arvok98/bookmark-app#readme"
+  "homepage": "https://github.com/Arvok98/bookmark-app#readme",
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
 }
