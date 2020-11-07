@@ -20,8 +20,8 @@
   },
   "homepage": "https://github.com/Arvok98/bookmark-app#readme",
   "dependencies": {
-    "jquery": "^3.4.1",
     "cuid": "^2.1.6",
+    "jquery": "^3.4.1",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
