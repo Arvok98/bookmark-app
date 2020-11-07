@@ -113,9 +113,10 @@ function createFormSection() {
         <form id="new-bookmark-form">
           <div class="link-text-container">
             <label for="link-text">Make sure your url has http(s):// in front!</label>
-            <input type="text" name="url" id="link-text" value="https://" required>
+            <input type="text" name="url" id="link-text" placeholder="https://" required>
           </div>
           <div class="description-container">
+            <label for="link-text" class='addTit'>Add Title</label>
             <input type="text" name="title" id="link-title" placeholder="Link Title" required>
             
             <div class="star-input">
@@ -161,9 +162,10 @@ function createFormSection() {
       <form id="new-bookmark-form">
         <div class="link-text-container">
           <label for="link-text">Add a new bookmark</label>
-          <input type="text" name="url" id="link-text" value="https://" required>
+          <input type="text" name="url" id="link-text" placeholder="https://" required>
         </div>
         <div class="description-container">
+          <label for="link-text" class='addTit'>Add Title</label>
           <input type="text" name="title" id="link-title" placeholder="Link Title" required>
           
           <div class="star-input">
@@ -211,9 +213,10 @@ function createUpdateSection() {
         <form id="update-bookmark-form">
           <div class="link-text-container">
             <label for="link-text">Make sure your url has http(s):// in front!</label>
-            <input type="text" name="url" id="link-text" value="https://" required>
+            <input type="text" name="url" id="link-text" placeholder="https://" required>
           </div>
           <div class="description-container">
+            <label for="link-text" class='addTit'>Add Title</label>
             <input type="text" name="title" id="link-title" placeholder="Link Title" required>
             
             <div class="star-input">
@@ -259,9 +262,10 @@ function createUpdateSection() {
       <form id="update-bookmark-form">
         <div class="link-text-container">
           <label for="link-text">Update a bookmark</label>
-          <input type="text" name="url" id="link-text" value="https://" required>
+          <input type="text" name="url" id="link-text" placeholder="https://" required>
         </div>
         <div class="description-container">
+          <label for="link-text" class='addTit'>Add Title</label>
           <input type="text" name="title" id="link-title" placeholder="Link Title" required>
           
           <div class="star-input">
