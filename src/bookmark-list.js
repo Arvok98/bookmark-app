@@ -19,6 +19,7 @@ function createNewAndFilterButtonsSection() {
       </div>
       <div class="right-button">
         <form id="rating-filter">
+          <label for='rating' class='sort'>SORT</label>
           <select name="" id="rating">
             <option value="">Filter By</option>
             <option value="5">5 Stars</option>
@@ -118,7 +119,8 @@ function createFormSection() {
           <div class="description-container">
             <label for="link-text" class='addTit'>Add Title</label>
             <input type="text" name="title" id="link-title" placeholder="Link Title" required>
-            
+            <fieldset>
+            <legend>Stars</legend>
             <div class="star-input">
               <p>Rating: </p>
               <div class="star">
@@ -142,6 +144,7 @@ function createFormSection() {
                 <input type="radio" name="rating" id="star-5" value="5" checked>
               </div>
             </div>
+            </fieldset>
             <textarea name="desc" id="" cols="30" rows="10" placeholder="Add a description (optional)" value=""></textarea>
           </div>
         </form>
@@ -165,9 +168,10 @@ function createFormSection() {
           <input type="text" name="url" id="link-text" placeholder="https://" required>
         </div>
         <div class="description-container">
-          <label for="link-text" class='addTit'>Add Title</label>
+          <label for="link-title" class='addTit'>Add Title</label>
           <input type="text" name="title" id="link-title" placeholder="Link Title" required>
-          
+          <fieldset>
+          <legend>Stars</legend>
           <div class="star-input">
             <p>Rating: </p>
             <div class="star">
@@ -191,7 +195,9 @@ function createFormSection() {
               <input type="radio" name="rating" id="star-5" value="5" checked>
             </div>
           </div>
-          <textarea name="desc" id="" cols="30" rows="10" placeholder="Add a description (optional)" value=""></textarea>
+          </fieldset>
+          <label for='desc'>Description</label>
+          <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Add a description (optional)" value=""></textarea>
         </div>
       </form>
       <div class="form-buttons">
@@ -216,9 +222,10 @@ function createUpdateSection() {
             <input type="text" name="url" id="link-text" placeholder="https://" required>
           </div>
           <div class="description-container">
-            <label for="link-text" class='addTit'>Add Title</label>
+            <label for="link-title" class='addTit'>Add Title</label>
             <input type="text" name="title" id="link-title" placeholder="Link Title" required>
-            
+            <fieldset>
+          <legend>Stars</legend>
             <div class="star-input">
               <p>Rating: </p>
               <div class="star">
@@ -242,6 +249,7 @@ function createUpdateSection() {
                 <input type="radio" name="rating" id="star-5" value="5" checked>
               </div>
             </div>
+            </fieldset>
             <textarea name="desc" id="" cols="30" rows="10" placeholder="Add a description (optional)" value=""></textarea>
           </div>
         </form>
@@ -265,9 +273,11 @@ function createUpdateSection() {
           <input type="text" name="url" id="link-text" placeholder="https://" required>
         </div>
         <div class="description-container">
-          <label for="link-text" class='addTit'>Add Title</label>
+          <label for="link-title" class='addTit'>Add Title</label>
           <input type="text" name="title" id="link-title" placeholder="Link Title" required>
-          
+
+          <fieldset>
+          <legend>Stars</legend>
           <div class="star-input">
             <p>Rating: </p>
             <div class="star">
@@ -291,7 +301,9 @@ function createUpdateSection() {
               <input type="radio" name="rating" id="star-5" value="5" checked>
             </div>
           </div>
-          <textarea name="desc" id="" cols="30" rows="10" placeholder="Add a description (optional)" value=""></textarea>
+          </fieldset>
+          <label for='desc'>Description</label>
+          <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Add a description (optional)" value=""></textarea>
         </div>
       </form>
       <div class="form-buttons">

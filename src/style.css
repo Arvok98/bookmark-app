@@ -9,7 +9,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-color: #a86f39;
+    background-color: #f37804;
   }
   
   button {
@@ -18,7 +18,7 @@
   }
   
   form {
-    background-color: #3e41d3;
+    background-color: #a3a4e6;
   }
   
   /* Heading */
@@ -32,7 +32,7 @@
     text-align: center;
     width: 100%;
     font-size: 50px;
-    color: #FFF;
+    color: rgb(0, 0, 0);
   }
   
   
@@ -66,7 +66,8 @@
   }
   
   #rating-filter {
-    width: 90%
+    width: 90%;
+    background-color: #f37804; 
   }
   
   #rating-filter select {
@@ -310,4 +311,16 @@
   .addTit {
     margin-bottom: 10px;
     width: 70%;
+  }
+
+  label{
+    color: rgb(0, 0, 0);
+  }
+
+  p {
+    color: rgb(0, 0, 0);
+  }
+
+  fieldset {
+    border: none;
   }
